@@ -1,0 +1,21 @@
+---
+title: "Relatório da dívida mobiliária federal"
+author: "Marcelo Vilas Boas de Castro"
+date: "28 de outubro de 2020"
+output: html_document
+---
+# Gráficos
+
+```{r echo = F, results = F, message = F, warning = F}
+
+#setwd("C:\\Users\\User\\OneDrive")
+source("Graf_div_mob_fed.R")
+
+```
+
+```{r echo = F, results = F}
+
+graf_total1
+graf_total2
+
+```
